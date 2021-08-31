@@ -51,29 +51,89 @@
 
                 <div class="mt-2">
                     <div class="row">
-                <h4 class="col-11">Notification</h4> <a href="#" class="btn btn-outline-warning bg-white ">Clear All</a>                    
-            </div><br><br>
+                <h4 class="col-8">Appointments</h4><input id="search-focus" type="search" id="form1" class="form-control" placeholder="Search for.." style="width: 20%;"/> &nbsp; <button type="button" class="btn btn-secondary " style="height: 37px;text-align: center;">Filter <i class="fa fa-credit-card"></i></button>
+          
+            </div><br>
             <div class="card">
                 
                 <div class="card-body">
                     <div class="row">
-                  <h5 class="col">System Notification</h5><h5 class="col-8">Appoinment Notification</h5>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="fa fa-clock"></i> 15 min ago<br>
-                        <b>Hassan Ahmad</b> sent a message about corrective surgery <i class="float-right fa fa-times"></i></li>
-                        <li class="list-group-item"><i class="fa fa-clock"></i> 35 min ago<br>
-                            <b>Abdel Amir</b> sent a message about corrective surgery <i class="float-right fa fa-times"></i></li>
-                            <li class="list-group-item"><i class="fa fa-clock"></i> 1 hr ago<br>
-                                <b>Hassan Ahmad</b> sent a message about corrective surgery <i class="float-right fa fa-times"></i></li>
-                                <li class="list-group-item"><i class="fa fa-clock"></i> 2 hr ago<br>
-                                    <b>Salman</b> sent a message about corrective surgery <i class="float-right fa fa-times"></i></li>
-                                    <li class="list-group-item"><i class="fa fa-clock"></i> 14 April 2021<br>
-                                        <b>Hassan Ahmad</b> sent a message about corrective surgery <i class="float-right fa fa-times"></i></li>
-                                    </ul>
-                                </div>
+                  <h5 class="col-3">Upcoming Appointments</h5><h5 class="col-md-4">Incomplete Records</h5><h5 class="col-5 underline"><u>Completed Appoinments</u></h5>
+                  
+                  </div><br>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Patient Name <i class="fa fa-arrow-down"></i></th>
+                        <th scope="col">Location <i class="fa fa-arrow-down"></i></th>
+                        <th scope="col">Reason</th>
+                        <th scope="col">Appointment Date & Time <i class="fa fa-arrow-down"></i></th>
+                        <th scope="col">Action</th>
+                        
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                         
+                      <tr>
+                        <td><img src="image/a.jpg" width=55 height=55 style="border-radius: 50%;"/> Issac Barbar</td>
+                        <td>amman</td>
+                        <td>obesity / Weight loss</td>
+                        <td>11 Feb 2021, 07:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+
+                      </tr>
+                      <tr>
+                        <td><img src="image/b.jpeg" width=55 height=55 style="border-radius: 50%;"/> Ghazal Farah</td>
+                        <td>Sahah</td>
+                        <td>Back Pain</td>
+                        <td>09 Feb 2021, 11:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     <tr>
+                        <td><img src="image/c.jpg" width=55 height=55 style="border-radius: 50%;"/> Ibrahim</td>
+                        <td>kerak</td>
+                        <td>Head Pain</td>
+                        <td>09 Feb 2021, 11:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     <tr>
+                        <td><img src="image/d.jpeg" width=55 height=55 style="border-radius: 50%;"/> Mahmoud</td>
+                        <td>Zarqa</td>
+                        <td>kidney Transplant</td>
+                        <td>25 Mar 2021, 02:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     <tr>
+                        <td><img src="image/e.jpg" width=55 height=55 style="border-radius: 50%;"/> Zaid</td>
+                        <td>Sahah</td>
+                        <td>Back Pain</td>
+                        <td>09 Feb 2021, 11:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     <tr>
+                        <td><img src="image/f.jpg" width=55 height=55 style="border-radius: 50%;"/> Noor</td>
+                        <td>Sahah</td>
+                        <td>Back Pain</td>
+                        <td>09 Feb 2021, 11:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     <tr>
+                        <td><img src="image/g.jpg" width=55 height=55 style="border-radius: 50%;"/> Remas</td>
+                        <td>Aydoun</td>
+                        <td>neurology consulatation</td>
+                        <td>22 Mar 2021, 08:30 PM </td>
+                        <td><i class="fa fa-file"></i> &nbsp; <i class="fas fa-file-pdf" aria-hidden="true"></i></td>
+                     </tr>
+                     
+                      
+                    </tbody>
+                  </table>
                             </div>
-                       </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>List Per Page <a class="btn btn-outline-warning"> 10 </a> <a class="btn btn-warning">Go</a>  <i class="far fa-caret-square-left" style="margin-left: 75%;height: 10%;"></i> <i class="fa fa-caret-square-right"></i></h5>
                     </div>
                 </div>
                 <div class="col-md-9 mt-2"><h6 style="margin-left: 22%;">Copyright @ 2021. All rights reserved</h6>    
